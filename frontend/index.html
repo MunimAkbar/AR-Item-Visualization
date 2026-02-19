@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Menu Viewer</title>
+    <style>
+      body { margin: 0; overflow: hidden; background-color: #333; }
+      /* Basic loading overlay */
+      #info {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        pointer-events: none;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="info">Scan floor & tap to place dish</div>
+    <!-- This script connects your Logic to the Page -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
